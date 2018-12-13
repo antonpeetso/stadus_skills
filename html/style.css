@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    display: none;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+.info {
+    background-color:rgba(255, 255, 255, 0.863);
+    color: black;
+    font-size:14px;
+    text-align: center;
+    padding:5px;
+    margin-top:5px;
+    border-radius:10px;
+}
+
+.header {
+    background: url('https://i.imgur.com/a3hBS5L.png');
+    background-size:cover;
+    color: white;
+    text-align: center;
+    height:90px;
+    padding-top:10px;
+    border-radius:10px;
+}
+
+.dialog {
+    min-width: 300px;
+    max-width: 900px;
+    width:30%;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+}
+
+.skill {
+    margin-top:5px;
+    margin-bottom:5px;
+    float:left;
+    margin-left:5px;
+    width: calc(50% - 10px);
+}
+
+#staminaProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size:14px;
+}
+
+#staminaBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(47, 118, 211);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#strengthProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#strengthBar {
+    width: 10%;
+    height: 20px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#drivingProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#drivingBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(187, 63, 47);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#shootingProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#shootingBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(201, 183, 26);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#fishingProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#fishingBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(26, 166, 201);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
+
+#drugsProgress {
+    width: 100%;
+    background-color: rgba(146, 145, 145, 0.27);
+}
+
+#drugsBar {
+    width: 10%;
+    height: 20px;
+    background-color: rgb(125, 19, 134);
+    text-align: center; /* To center it horizontally (if you want) */
+    color: white; 
+}
