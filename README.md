@@ -1,4 +1,4 @@
-# Stadus Skills
+# Stadus Skills ( ESX )
 
 I wanted to release this since I don't play FiveM anymore. 
 This is quite done but needs to be better implemented.
@@ -15,6 +15,11 @@ Remember that all of the functions that is "TriggerServerEvent" is on client-sid
 2. Add "TriggerServerEvent('stadus_skills:addStrength', GetPlayerServerId(PlayerId()), (math.random() + 0))" to esx_gym where you want people to gain Strength.
 3. Add "TriggerServerEvent('stadus_skills:addFishing', GetPlayerServerId(PlayerId()), (math.random() + 0))" to your favorite fishing-mod. (I had my own fishing system so some tweaking might be required)
 4. Add "TriggerServerEvent('stadus_skills:addDrugs', GetPlayerServerId(PlayerId()), (math.random() + 0))" to esx_drugs where you want people to gain drug-skill.
+
+## Requirements
+* MySQL-database
+* some knowledge of LUA
+* Essentialmode and ES Extended
 
 ## How to use
 When driving, after a while you will gain driving-skill.
